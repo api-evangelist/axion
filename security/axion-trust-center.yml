@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+url: https://www.axion.com/security
+certifications:
+- SOC 2
+- ISO 27001
+compliance_notes:
+  soc2: Platform designed to be SOC 2 compliant, with regular penetration testing and security reviews.
+  iso27001: Underlying data centers hosting infrastructure maintain ISO 27001 certification.
+security_practices:
+- AES-256 encryption at rest; TLS 256-bit encryption in transit
+- Hosting on AWS and GCP in US, UK, and EU regions with VPC isolation
+- Annual third-party penetration testing
+- Quarterly access reviews and least-privilege access controls
+- Employee security awareness training and background checks
+- 24/7 security monitoring, business continuity and disaster recovery
+evidence:
+- source: https://www.axion.com/security
+  keywords:
+  - soc 2
+  - iso 27001
+  - penetration testing
+  - encryption

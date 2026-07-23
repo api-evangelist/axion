@@ -1,22 +1,45 @@
 aid: axion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axion.png
 name: Axion
-description: 'Axion is a company surfaced as a portfolio company of bessemer-venture-partners, kleiner-perkins
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Axion (formerly Axion Ray) is an AI platform for manufacturing quality intelligence
+  that helps global manufacturers detect, diagnose, and resolve product quality and warranty issues
+  faster. It unifies customer, service, field, and telematics data to deliver early problem detection,
+  root-cause analysis, and improvement tracking, reducing warranty costs and investigation time.
+  Customers include Daikin, Harley-Davidson, SharkNinja, Cummins, and Schneider Electric. Founded by
+  Daniel First, Axion has raised Series A (led by Bessemer Venture Partners) and Series B (led by
+  Salesforce Ventures). Axion is an enterprise SaaS product with no publicly documented API or developer
+  platform at this time; this profile captures its company identity, legal, and security/compliance surface.'
 url: https://raw.githubusercontent.com/api-evangelist/axion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 - kleiner-perkins
+- salesforce-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Manufacturing
+- Quality Management
+- Warranty
+- Root Cause Analysis
+- Enterprise SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.axion.com/
+- type: Blog
+  url: https://www.axion.com/news
+- type: Support
+  url: https://www.axion.com/contact
+- type: TermsOfService
+  url: https://www.axion.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.axion.com/legal/privacy-policy
+- type: Security
+  url: https://www.axion.com/security
+- type: Compliance
+  url: https://www.axion.com/security
+- type: TrustCenter
+  url: security/axion-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/axion-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/axion-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
